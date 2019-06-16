@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61f6a578-9572-486d-938f-5251cf00d16c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/MachineComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MachineComposite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/MachineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prac2-AmpliEP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prac2-AmpliEP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MachineComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -28,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Machine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
               <folding>
                 <element signature="e#93#94#0" expanded="true" />
                 <element signature="e#121#122#0" expanded="true" />
@@ -39,10 +42,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/MachineTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MachineComposite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="6">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#589#590#0" expanded="true" />
@@ -58,6 +75,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -70,16 +88,7 @@
         <option value="$PROJECT_DIR$/src/MachineComponent.java" />
         <option value="$PROJECT_DIR$/src/Machine.java" />
         <option value="$PROJECT_DIR$/src/MachineComposite.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/prac2-AmpliEP.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/test/MachineTest.java" />
       </list>
     </option>
   </component>
@@ -108,7 +117,7 @@
             <path>
               <item name="prac2-AmpliEP" type="b2602c69:ProjectViewProjectNode" />
               <item name="prac2-AmpliEP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -118,9 +127,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -128,8 +143,16 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,6 +166,33 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.MachineTest.setBrokenTest">
+    <configuration name="MachineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prac2-AmpliEP" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MachineTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MachineTest.setBrokenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prac2-AmpliEP" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MachineTest" />
+      <option name="METHOD_NAME" value="setBrokenTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MachineTest.setBrokenTest" />
+        <item itemvalue="JUnit.MachineTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -153,12 +203,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560665292150</updated>
-      <workItem from="1560665305423" duration="1656000" />
+      <workItem from="1560665305423" duration="3878000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MachineTest - 2019.06.16 at 11h 16m 16s.xml">
+      <configuration name="MachineTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MachineTest_setBrokenTest - 2019.06.16 at 11h 17m 12s.xml">
+      <configuration name="MachineTest.setBrokenTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MachineTest_setBrokenTest - 2019.06.16 at 11h 24m 50s.xml">
+      <configuration name="MachineTest.setBrokenTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MachineTest - 2019.06.16 at 11h 25m 00s.xml">
+      <configuration name="MachineTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MachineTest - 2019.06.16 at 11h 28m 43s.xml">
+      <configuration name="MachineTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MachineTest_setBrokenTest - 2019.06.16 at 11h 29m 24s.xml">
+      <configuration name="MachineTest.setBrokenTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MachineTest_setBrokenTest - 2019.06.16 at 11h 30m 30s.xml">
+      <configuration name="MachineTest.setBrokenTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1656000" />
+    <option name="totallyTimeSpent" value="3878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -169,16 +242,17 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.4977307" weight="0.32850242" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -200,15 +274,27 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/MachineComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MachineComposite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Machine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
           <folding>
             <element signature="e#93#94#0" expanded="true" />
             <element signature="e#121#122#0" expanded="true" />
@@ -216,14 +302,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MachineComposite.java">
+    <entry file="file://$PROJECT_DIR$/test/MachineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="335">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -245,6 +331,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -267,6 +354,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -291,6 +379,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>org.junit.jupiter:junit-jupiter:5.4.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
