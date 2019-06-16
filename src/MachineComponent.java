@@ -21,6 +21,6 @@ public abstract class MachineComponent extends Observable {
             notifyObservers();
         }
     }
-    public abstract boolean isBroken();
 
+    public abstract boolean isBroken();
 }

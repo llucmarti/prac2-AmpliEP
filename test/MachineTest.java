@@ -4,8 +4,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MachineTest {
-
     private Machine machine;
+
     @BeforeEach
     void setUp() {
         machine = new Machine();
