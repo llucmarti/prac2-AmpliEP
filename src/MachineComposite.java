@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MachineComposite extends MachineComponent {
-    
+
     private List<MachineComponent> components = new ArrayList<>();
     public void addComponent(MachineComponent mc) {
         components.add(mc);
