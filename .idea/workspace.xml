@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61f6a578-9572-486d-938f-5251cf00d16c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Machine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Machine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MachineComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MachineComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MachineComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MachineComposite.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Machine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state relative-caret-position="85">
+              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="e#93#94#0" expanded="true" />
                 <element signature="e#121#122#0" expanded="true" />
@@ -40,15 +38,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MachineComposite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="680">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,9 +67,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MachineComposite.java" />
         <option value="$PROJECT_DIR$/src/MachineComponent.java" />
         <option value="$PROJECT_DIR$/src/Machine.java" />
+        <option value="$PROJECT_DIR$/src/MachineComposite.java" />
       </list>
     </option>
   </component>
@@ -124,6 +122,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -152,12 +153,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560665292150</updated>
-      <workItem from="1560665305423" duration="1127000" />
+      <workItem from="1560665305423" duration="1656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1127000" />
+    <option name="totallyTimeSpent" value="1656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -204,25 +205,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MachineComposite.java">
+    <entry file="file://$PROJECT_DIR$/src/Machine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Machine.java">
+    <entry file="file://$PROJECT_DIR$/src/MachineComposite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="680">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
-            <element signature="e#93#94#0" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
           </folding>
         </state>
       </provider>
