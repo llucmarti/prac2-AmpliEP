@@ -25,7 +25,4 @@ class MachineTest {
         machine.repair();
         assertFalse(machine.isBroken());
     }
-
-
-
 }

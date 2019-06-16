@@ -4,7 +4,6 @@ import java.util.Observable;
 import java.util.Observer;
 
 public class MachineComposite extends MachineComponent implements Observer {
-
     private List<MachineComponent> components = new ArrayList<>();
     private int brokenComponents = 0;
 
