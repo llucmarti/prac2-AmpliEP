@@ -7,8 +7,6 @@ public class MachineComposite extends MachineComponent implements Observer {
 
     private List<MachineComponent> components = new ArrayList<>();
     private int brokenComponents = 0;
-    private boolean broken = false;
-    private boolean wasBroken;
 
     public void addComponent(MachineComponent mc){
         components.add(mc);
@@ -19,24 +17,6 @@ public class MachineComposite extends MachineComponent implements Observer {
                 setChanged();
                 notifyObservers();
             }
-        }
-    }
-
-    public void setBroken(){
-        wasBroken = broken;
-        broken = true;
-        if(!wasBroken){
-            setChanged();
-            notifyObservers();
-        }
-    }
-
-    public void repair() {
-        wasBroken = broken;
-        broken = false;
-        if(wasBroken){
-            setChanged();
-            notifyObservers();
         }
     }
 
